@@ -1,9 +1,7 @@
-function idade(y){
-    const old = 2024 - y
-    if (old >= 18) {
-        console.log (`Você tem ${old} anos! Você já é maior de idade!`)
-    } else {
-        console.log (`Você tem ${old} anos! Você ainda é menor de idade!`)
-    }
+function some (a, b){
+
+    const soma = (a + b)
+    console.log (`O resultado da sua conta é ${soma}`)
 }
-idade(2007)
+
+some (1, 3)
